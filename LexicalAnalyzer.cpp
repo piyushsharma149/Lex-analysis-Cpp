@@ -238,7 +238,6 @@ Token* LexicalAnalyzer::getNextToken()
 	}
 	
 	tk->setLexemeString(lexeme);
-	
 	return tk;
 
 }
